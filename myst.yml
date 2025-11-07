@@ -4,7 +4,7 @@ project:
   id: 41358000-8a7e-457d-9de1-497538636fa8
   title: GeoAI Course Material
   toc:
-    - file: index.ipynb
+    - file: Introduction/Index.ipynb
     - title: 	Introduction to GeoAI
     - file: Day 1/Intro.ipynb
     - title: 	Mathematics of Machine Learning
