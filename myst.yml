@@ -1,0 +1,55 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 41358000-8a7e-457d-9de1-497538636fa8
+  title: GeoAI Course Material
+  toc:
+    - file: index.ipynb
+    - title: 	Introduction to GeoAI
+    - file: Day 1/Intro.ipynb
+    - title: 	Mathematics of Machine Learning
+      children:
+      - file: Day 2/linear-algebra.ipynb
+      - file: Day 2/calculus.ipynb
+      - file: Day 2/autograd.ipynb
+      - file: Day 2/probability.ipynb
+    - title: Basics of Machine Learning
+      children:
+      - file: Day 3/linear-regression.ipynb
+      - file: Day 3/softmax-regression.ipynb
+      - file: Day 3/mlp.ipynb
+      - file: Day 3/mlp-implementation.ipynb 
+      - file: Day 3/backprop.ipynb
+      - file: Day 3/dropout.ipynb
+    - title: Intro to Deep Learning
+      children:
+        - file: Day 4/why-conv.ipynb
+        - file: Day 4/conv-layer.ipynb
+        - file: Day 4/padding-and-strides.ipynb
+        - file: Day 4/channels.ipynb
+        - file: Day 4/pooling.ipynb
+        - file: Day 4/lenet.ipynb
+    - title: Deep Learning for Spatial Data
+      children:
+        - file: Day 5/alexnet.ipynb
+        - file: Day 5/vgg.ipynb
+        - file: Day 5/nin.ipynb
+        - file: Day 5/googlenet.ipynb
+        - file: Day 5/batch-norm.ipynb
+        - file: Day 5/resnet.ipynb
+        - file: Day 5/densenet.ipynb
+        - file: Day 5/cnn-design.ipynb
+      
+
+
+
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+        favicon: statics/favicon.png
+        logo: statics/logo.png
